@@ -1,0 +1,25 @@
+{
+  "nome": "PessoaFisica",
+  "valores": [
+    {
+      "nome": "Nome",
+      "valores": []
+    },
+    {
+      "nome": "CPF",
+      "valor": "6942050918"
+    },
+    {
+      "nome": "Matricula",
+      "valor": "196497213"
+    },
+    {
+      "nome": "Sexo",
+      "valor": "Não-Binárie"
+    },
+    {
+      "nome": "Email",
+      "valor": "cleber.da.fotocopia@gmail.com"
+    }
+  ]
+}

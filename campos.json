@@ -1,0 +1,47 @@
+{
+  "nome": "PessoaFisica",
+  "tipo": "OU INCLUSIVO",
+  "atributos": [
+    {
+      "nome": "Nome",
+      "tipo": "OU EXCLUSIVO",
+      "atributos": [
+        {
+          "nome": "PrimeiroNome",
+          "tipo": "OU EXCLUSIVO",
+          "atributos": []
+        },
+        {
+          "nome": "NomeMeio",
+          "tipo": "OU EXCLUSIVO",
+          "atributos": []
+        },
+        {
+          "nome": "UltimoNome",
+          "tipo": "OU EXCLUSIVO",
+          "atributos": []
+        }
+      ]
+    },
+    {
+      "nome": "CPF",
+      "tipo": "OU EXCLUSIVO",
+      "atributos": []
+    },
+    {
+      "nome": "Matricula",
+      "tipo": "OU EXCLUSIVO",
+      "atributos": []
+    },
+    {
+      "nome": "Sexo",
+      "tipo": "OU EXCLUSIVO",
+      "atributos": []
+    },
+    {
+      "nome": "Email",
+      "tipo": "OU EXCLUSIVO",
+      "atributos": []
+    }
+  ]
+}
