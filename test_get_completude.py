@@ -32,7 +32,7 @@ class test_get_completude(unittest.TestCase):
                             "atributos": []
                         },
                         {
-                            "nome": "nome2",
+                            "nome": "nome3",
                             "valor": "pedro",
                             "atributos": []
                         },
@@ -46,12 +46,15 @@ class test_get_completude(unittest.TestCase):
                         {
                             "nome": "nome2",
                             "tipo": "OU INCLUSIVO",
-                            "atributos": []
+                            "completo": True,
+                            "valor": "vitor"
                         },
                         {
                             "nome": "nome3",
                             "tipo": "OU INCLUSIVO",
-                            "atributos": []
+                            "completo": True,
+                            "valor": "pedro"
+
                         }
                     ]
                 }
