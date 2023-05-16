@@ -7,6 +7,8 @@ def read_json(file: str):
 
 
 def run_cases_get_completude():
+    # Note como isso é só pra ver o que a função faz
+    # e NÃO é um teste.
     cases = [
         'caso1.json',
         'caso2.json',
@@ -67,4 +69,4 @@ def get_completude(item: dict, campo: dict = None) -> bool:
     return solucao
 
 
-run_cases_get_completude()
+# run_cases_get_completude()
