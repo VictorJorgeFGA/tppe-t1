@@ -8,7 +8,7 @@ TPPE - Técnicas de Programação para Plataformas Emergentes
 | :------: |:-------------:|
 | Joao Henrique  | 18/0033620 |
 | Rodrigo Santos | MATRICULA  |
-| Renato Brito   | MATRICULA  |
+| Renato Brito   | 18/0027239  |
 | Vitor Jorge    | MATRICULA  |
 
 ### Executando o projeto
