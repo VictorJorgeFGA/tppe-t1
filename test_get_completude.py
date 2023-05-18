@@ -1,6 +1,5 @@
 import pytest
 
-from completude import get_completude_leaf
 from project_types import leaf
 
 
@@ -27,4 +26,4 @@ from project_types import leaf
     (leaf("UltimoNome",""),False),
 ])
 def test_get_completute_leaf(element: leaf, is_complete: bool):
-    assert get_completude_leaf(element) == is_complete
+    assert element.get_completude() == is_complete
