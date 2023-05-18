@@ -2,6 +2,46 @@ UnB - Universidade de Brasilia
 FGA - Faculdade do Gama  
 TPPE - Técnicas de Programação para Plataformas Emergentes  
 
+### Alunos
+
+|  Aluno   |    Matricula  |
+| :------: |:-------------:|
+| Joao Henrique  | 18/0033620 |
+| Rodrigo Santos | MATRICULA  |
+| Renato Brito   | MATRICULA  |
+| Vitor Jorge    | MATRICULA  |
+
+### Executando o projeto
+
+Pré-requisitos:
+- python3
+- virtualenv
+- pip3
+
+#### Instalando dependências
+
+Faça este passo apenas na primeira vez que for rodar o projeto.
+```bash
+$ virtualenv env
+$ source env/bin/activate
+$ pip3 install -r requirements.txt
+```
+
+Desativando o ambiente virtual:
+```bash
+$ deactivate
+```
+
+Ativando o ambiente virtual:
+```bash
+$ source env/bin/activate
+```
+
+#### Executando os testes
+```bash
+$ pytest .
+```
+
 ### Trabalho Prático 1 - _Test-Driven Development_
 
 ---
