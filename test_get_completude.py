@@ -1,29 +1,29 @@
 import pytest
 
-from project_types import leaf
+from project_types import Leaf, Name
 
 
 @pytest.mark.parametrize("element, is_complete",[
-    (leaf("CPF","111.111.111-11"),True),
-    (leaf("CPF",""),False),
+    (Leaf("CPF","111.111.111-11"),True),
+    (Leaf("CPF",""),False),
 
-    (leaf("Matricula","11/1111111"),True),
-    (leaf("Matricula",""),False),
+    (Leaf("Matricula","11/1111111"),True),
+    (Leaf("Matricula",""),False),
 
-    (leaf("Sexo","M"),True),
-    (leaf("Sexo",""),False),
+    (Leaf("Sexo","M"),True),
+    (Leaf("Sexo",""),False),
 
-    (leaf("Email","jorge@email.com"),True),
-    (leaf("Email",""),False),
+    (Leaf("Email","jorge@email.com"),True),
+    (Leaf("Email",""),False),
 
-    (leaf("PrimeiroNome","Andre"),True),
-    (leaf("PrimeiroNome",""),False),
+    (Leaf("PrimeiroNome","Andre"),True),
+    (Leaf("PrimeiroNome",""),False),
 
-    (leaf("NomeMeio","Rodrigues"),True),
-    (leaf("NomeMeio",""),False),
+    (Leaf("NomeMeio","Rodrigues"),True),
+    (Leaf("NomeMeio",""),False),
 
-    (leaf("UltimoNome","Santos"),True),
-    (leaf("UltimoNome",""),False),
+    (Leaf("UltimoNome","Santos"),True),
+    (Leaf("UltimoNome",""),False),
 ])
-def test_get_completute_leaf(element: leaf, is_complete: bool):
+def test_get_completute_leaf(element: Leaf, is_complete: bool):
     assert element.get_completude() == is_complete

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-class leaf:
+class Leaf:
     """
     Basic data type for analise if an atribute is complete.
     """
