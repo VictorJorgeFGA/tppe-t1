@@ -73,11 +73,13 @@ class Person:
 
 
     def get_completude(self):
-        return True
+        if self.type_completude == "xor":
+            return self.name.get_completude() ^ self.cpf.get_completude() ^ self.matricula.get_completude() ^ self.sexo.get_completude() ^ self.email.get_completude()
+        return self.name.get_completude() | self.cpf.get_completude() | self.matricula.get_completude() | self.sexo.get_completude() | self.email.get_completude()
 
     @property
-    def name(self):
-        return self._name
+    def name(self) -> Name:
+        return self._name 
 
     @name.setter
     def name(self, value):
