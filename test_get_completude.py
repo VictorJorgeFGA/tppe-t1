@@ -51,7 +51,14 @@ def test_get_completute_name(name: Name, is_complete: bool):
 
 
 @pytest.mark.parametrize("person, is_complete",[
-    (Person(Name("Andre","Santos","Rodrigues","or"),"333.333.333-33","M","andre.santos@gmail.com", "or"), True)
+    (Person(Name("Andre","Santos","Rodrigues","or"),"333.333.333-33", "22/2222222","M","andre.santos@gmail.com", "or"), True),
+    (Person(Name("","","","or"),"","","","", ""), False),
+
+    (Person(Name("Andre","Santos","Rodrigues","or"),"","","","", "or"), True),
+    (Person(Name("Andre","Santos","Rodrigues","or"),"","","M","", "or"), True),
+
+    (Person(Name("Andre","Santos","Rodrigues","or"),"","","","", "xor"), True),
+    (Person(Name("Andre","Santos","Rodrigues","or"),"333.333.333-33","","","", "xor"), False),
 ])
 def test_get_completute_person(person: Person, is_complete: bool):
     assert person.get_completude() == is_complete
