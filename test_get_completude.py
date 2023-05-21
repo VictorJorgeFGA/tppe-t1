@@ -1,6 +1,6 @@
 import pytest
 
-from project_types import Leaf, Name
+from project_types import Leaf, Name, Person
 
 
 @pytest.mark.parametrize("element, is_complete",[
@@ -47,3 +47,11 @@ def test_get_completute_leaf(element: Leaf, is_complete: bool):
 ])
 def test_get_completute_name(name: Name, is_complete: bool):
     assert name.get_completude() == is_complete
+
+
+
+@pytest.mark.parametrize("person, is_complete",[
+    (Person(Name("Andre","Santos","Rodrigues","or"),"333.333.333-33","M","andre.santos@gmail.com", "or"), True)
+])
+def test_get_completute_person(person: Person, is_complete: bool):
+    assert person.get_completude() == is_complete

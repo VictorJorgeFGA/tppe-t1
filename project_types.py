@@ -61,3 +61,67 @@ class Name:
             self._type_completude = value
         else:
             raise ValueError("Type completude must be one of the following options: xor, or.")
+
+class Person:
+    def __init__(self, name : Name = Name(), cpf : str = "", matricula : str = "", sexo: str = "", email : str = "", type_completude="or"):
+        self.name = name
+        self.cpf = cpf
+        self.matricula = matricula
+        self.sexo = sexo
+        self.email = email
+        self.type_completude = type_completude
+
+
+    def get_completude(self):
+        return True
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        self._name = value
+
+    @property
+    def cpf(self):
+        return self._cpf
+
+    @cpf.setter
+    def cpf(self, value):
+        self._cpf = Leaf("CPF",value)
+
+    @property
+    def matricula(self):
+        return self._matricula
+
+    @matricula.setter
+    def matricula(self, value):
+        self._matricula = Leaf("matricula", value)
+
+    @property
+    def sexo(self):
+        return self._sexo
+
+    @sexo.setter
+    def sexo(self, value):
+        self._sexo = Leaf("sexo", value)
+
+    @property
+    def email(self):
+        return self._email
+
+    @email.setter
+    def email(self, value):
+        self._email = Leaf("email", value)
+
+    @property
+    def type_completude(self):
+        return self._type_completude
+
+    @type_completude.setter
+    def type_completude(self, value):
+        if value in "xor":
+            self._type_completude = value
+        else:
+            raise ValueError("Type completude must be one of the following options: xor, or.")
