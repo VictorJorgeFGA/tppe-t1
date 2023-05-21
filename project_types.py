@@ -23,7 +23,9 @@ class Name:
         self.type_completude = type_completude
 
     def get_completude(self):
-        return True
+        if self.type_completude == "xor":
+            return self.first_name.get_completude() ^ self.middle_name.get_completude() ^ self.last_name.get_completude()
+        return self.first_name.get_completude() | self.middle_name.get_completude() | self.last_name.get_completude()
 
     @property
     def first_name(self):
