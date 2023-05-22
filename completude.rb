@@ -1,25 +1,37 @@
 module Completude
-  def self.is_empty?(h)
-    if h.is_a?(Hash)
-      ans = true
-      h.keys.each do |k|
-        ans = ans && is_empty?(h[k])
+  def self.presence(h)
+    h.keys.each do |k|
+      if h[k].is_a?(Hash)
+        presence(h[k])
+      else
+        h[k] = !h[k].empty?
       end
-      ans
-    else
-      h.empty?
     end
   end
 
-  def self.get_completude(json, method = :or)
-    is_present = -> (a) do
-      !is_empty?(a)
+  def self.func(h, &block)
+    ans = false
+    h.values.each do |v|
+      if v.is_a?(Hash)
+        ans = yield(ans, func(v, &block))
+      else
+        ans = yield(ans, v)
+      end
     end
+    ans
+  end
+
+  def self.get_completude(json, method = :or)
+    presence(json)
 
     if method == :or
-      json.values.any?(&is_present)
+      func(json) do |a,b|
+        (a || b)
+      end
     else
-      json.values.map(&is_present).reduce(false) { |a,b| a ^ b }
+      func(json) do |a,b|
+        (a ^ b)
+      end
     end
   end
 end
