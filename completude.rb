@@ -1,5 +1,5 @@
 module Completude
   def self.get_completude(json)
-    true
+    !json.values.first.empty?
   end
 end
