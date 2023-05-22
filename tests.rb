@@ -13,8 +13,23 @@ class FeatureTests < Minitest::Test
     ]
   end
 
+  def self.multiple_values_using_or_test_cases
+    [
+      {'parameters' => {'matricula' => '1800000', 'cpf' => '1000000'}, 'answer' => true},
+      {'parameters' => {'matricula' => '1800000', 'cpf' => ''}, 'answer' => true},
+      {'parameters' => {'matricula' => '', 'cpf' => '1000000'}, 'answer' => true},
+      {'parameters' => {'matricula' => '', 'cpf' => ''}, 'answer' => false},
+    ]
+  end
+
   atomic_test_cases.each_with_index do |test_case, idx|
     define_method "test_atomic_completude_#{idx}" do
+      assert_equal test_case['answer'], Completude::get_completude(test_case['parameters'])
+    end
+  end
+
+  multiple_values_using_or_test_cases.each_with_index do |test_case, idx|
+    define_method "test_multiple_values_using_or_#{idx}" do
       assert_equal test_case['answer'], Completude::get_completude(test_case['parameters'])
     end
   end
