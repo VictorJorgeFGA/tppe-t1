@@ -19,6 +19,8 @@ class FeatureTests < Minitest::Test
       {'parameters' => {'matricula' => '1800000', 'cpf' => ''}, 'answer' => true},
       {'parameters' => {'matricula' => '', 'cpf' => '1000000'}, 'answer' => true},
       {'parameters' => {'matricula' => '', 'cpf' => ''}, 'answer' => false},
+      {'parameters' => {'matricula' => '', 'cpf' => '', 'email' => ''}, 'answer' => false},
+      {'parameters' => {'matricula' => '', 'cpf' => '', 'email' => 'jaozin123@gmail.com'}, 'answer' => true},
     ]
   end
 
