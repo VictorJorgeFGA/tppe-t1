@@ -1,56 +1,48 @@
 module Completude
-  def self.presence(h)
-    h.keys.each do |k|
-      if h[k].is_a?(Hash)
-        presence(h[k])
-      elsif h[k].is_a?(Array)
-        h[k] = h[k].map { |item| !item.empty? }
-      else
-        h[k] = !h[k].empty?
-      end
-    end
-  end
-
-  def self.func(h, &block)
-    ans = false
-    h.values.each do |v|
-      if v.is_a?(Hash)
-        ans = yield(ans, func(v, &block))
-      elsif v.is_a?(Array)
-        ans = yield(ans, func_arr(v, &block))
-      else
-        ans = yield(ans, v)
-      end
-    end
-    ans
-  end
-
-  def self.func_arr(arr, &block)
-    ans = false
-    arr.each do |v|
-      if v.is_a?(Hash)
-        ans = yield(ans, func(v, &block))
-      elsif v.is_a?(Array)
-        ans = yield(ans, func_arr(v, &block))
-      else
-        ans = yield(ans, v)
-      end
-    end
-    ans
-  end
-
   def self.get_completude(json, method = :or)
-
-    presence(json)
+    set_attrs_presence(json)
 
     if method == :or
-      func(json) do |a,b|
-        (a || b)
+      apply_operator(json) { |a,b|  (a || b) }
+    else
+      apply_operator(json) { |a,b| (a ^ b) }
+    end
+  end
+
+  private
+
+  def self.set_attrs_presence(data)
+    if data.is_a?(Array)
+      data.each_with_index do |value, index|
+        if value.is_a?(Array) || value.is_a?(Hash)
+          set_attrs_presence(value)
+        else
+          data[index] = !value.empty?
+        end
+      end
+    elsif data.is_a?(Hash)
+      data.each do |key, value|
+        if value.is_a?(Array) || value.is_a?(Hash)
+          set_attrs_presence(value)
+        else
+          data[key] = !value.empty?
+        end
       end
     else
-      func(json) do |a,b|
-        (a ^ b)
+      !data.empty?
+    end
+  end
+
+  def self.apply_operator(data, &block)
+    ans = false
+    (data.is_a?(Hash) ? data.values : data).each do |value|
+      if value.is_a?(Hash) || value.is_a?(Array)
+        ans = yield(ans, apply_operator(value, &block))
+      else
+        ans = yield(ans, value)
       end
     end
+
+    ans
   end
 end
