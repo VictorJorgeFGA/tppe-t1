@@ -56,6 +56,51 @@ class FeatureTests < Minitest::Test
     ]
   end
 
+  def self.multiple_atomic_and_composed_attributes_with_arrays_or_test_cases
+    [
+      {'parameters' =>
+        {
+          'nome_completo' => {'primeiro_nome' => '', 'segundo_nome' => ''},
+          'telefones' => [{'cod' => '1', 'numero' => ''}, {'cod' => '', 'numero' => ''}],
+          'matricula' => '',
+          'cpf' => ''},
+        'answer' => true
+      },
+      {'parameters' =>
+        {
+          'nome_completo' => {'primeiro_nome' => '', 'segundo_nome' => ''},
+          'telefones' => [{'cod' => '', 'numero' => '12345'}, {'cod' => '', 'numero' => ''}],
+          'matricula' => '',
+          'cpf' => ''},
+        'answer' => true
+      },
+      {'parameters' =>
+        {
+          'nome_completo' => {'primeiro_nome' => '', 'segundo_nome' => ''},
+          'telefones' => [{'cod' => '', 'numero' => ''}, {'cod' => '12334', 'numero' => ''}],
+          'matricula' => '',
+          'cpf' => ''},
+        'answer' => true
+      },
+      {'parameters' =>
+        {
+          'nome_completo' => {'primeiro_nome' => '', 'segundo_nome' => '123456'},
+          'telefones' => [{'cod' => '', 'numero' => ''}, {'cod' => '', 'numero' => ''}],
+          'matricula' => '',
+          'cpf' => ''},
+        'answer' => true
+      },
+      {'parameters' =>
+        {
+          'nome_completo' => {'primeiro_nome' => '', 'segundo_nome' => '123456'},
+          'telefones' => [{'cod' => '', 'numero' => '12345'}, {'cod' => '', 'numero' => ''}],
+          'matricula' => '',
+          'cpf' => 'aaaa'},
+        'answer' => true
+      },
+    ]
+  end
+
   atomic_test_cases.each_with_index do |test_case, idx|
     define_method "test_atomic_completude_#{idx}" do
       assert_equal test_case['answer'], Completude::get_completude(test_case['parameters'])
@@ -83,6 +128,12 @@ class FeatureTests < Minitest::Test
   multiple_atomic_and_composed_attributes_xor_test_cases.each_with_index do |test_case, idx|
     define_method "test_multiple_atomic_and_composed_attributes_xor_test_cases_#{idx}" do
       assert_equal test_case['answer'], Completude::get_completude(test_case['parameters'], :xor)
+    end
+  end
+
+  multiple_atomic_and_composed_attributes_with_arrays_or_test_cases.each_with_index do |test_case, idx|
+    define_method "test_multiple_atomic_and_composed_attributes_with_arrays_or_test_cases_#{idx}" do
+      assert_equal test_case['answer'], Completude::get_completude(test_case['parameters'], :or)
     end
   end
 end
