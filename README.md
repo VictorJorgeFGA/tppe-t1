@@ -6,40 +6,19 @@ TPPE - Técnicas de Programação para Plataformas Emergentes
 
 |  Aluno   |    Matricula  |
 | :------: |:-------------:|
-| Joao Henrique  | 18/0033620 |
-| Rodrigo Santos | MATRICULA  |
-| Renato Brito   | 18/0027239  |
-| Vitor Jorge    | MATRICULA  |
+| Joao Henrique   | 18/0033620 |
+| Rodrigo Santos  | 18/0027352 |
+| Renato Britto   | 18/0027239 |
+| Victor Jorge    | 18/0055241 |
 
 ### Executando o projeto
 
 Pré-requisitos:
-- python3
-- virtualenv
-- pip3
-
-#### Instalando dependências
-
-Faça este passo apenas na primeira vez que for rodar o projeto.
-```bash
-$ virtualenv env
-$ source env/bin/activate
-$ pip3 install -r requirements.txt
-```
-
-Desativando o ambiente virtual:
-```bash
-$ deactivate
-```
-
-Ativando o ambiente virtual:
-```bash
-$ source env/bin/activate
-```
+- ruby
 
 #### Executando os testes
 ```bash
-$ pytest .
+$ ruby tests.rb
 ```
 
 ### Trabalho Prático 1 - _Test-Driven Development_
