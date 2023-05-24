@@ -17,7 +17,7 @@ module Completude
         if value.is_a?(Array) || value.is_a?(Hash)
           set_attrs_presence(value)
         else
-          data[index] = !value.empty?
+          data[index] = !value.to_s.empty?
         end
       end
     elsif data.is_a?(Hash)
@@ -25,7 +25,7 @@ module Completude
         if value.is_a?(Array) || value.is_a?(Hash)
           set_attrs_presence(value)
         else
-          data[key] = !value.empty?
+          data[key] = !value.to_s.empty?
         end
       end
     else
