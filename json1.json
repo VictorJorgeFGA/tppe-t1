@@ -1,0 +1,98 @@
+{
+    "title": "Protein synthesis inhibitory activity in culture filtrates from new strains of Streptomyces isolated from Brazilian tropical soils",
+    "language": "Inglês",
+    "publicationDate": "2003",
+    "volume": "37",
+    "series": "",
+    "startPage": "138",
+    "endPage": "143",
+    "type": "journal article",
+    "keyword": [
+        "antimetabolic activity",
+        "actinomycetes",
+        "biotechnology",
+        "eukaryotic translation",
+        "translation inhibitor"
+    ],
+    "researchArea.cnpq": [
+        "CIENCIAS_BIOLOGICAS"
+    ],
+    "resourceUrl": "",
+    "PublisherJournal": {
+        "identifier.issn": "0266-8254",
+        "title": "LETTERS IN APPLIED MICROBIOLOGY"
+    },
+    "authors": [
+        {
+            "name": "Sheila Albert dos Reis",
+            "ordemAutoria": "1",
+            "citationName": [
+                "REIS, S. A."
+            ]
+        },
+        {
+            "name": "Luciana Veloso da Costa",
+            "ordemAutoria": "2",
+            "citationName": [
+                "COSTA, L. V.",
+                "COSTA, LUCIANA",
+                "DA COSTA, LUCIANA VELOSO"
+            ],
+            "identifier.lattes": "0006350082498931",
+            "nationality": "Brasil",
+            "birthCity": "Rio de Janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Controle de Qualidade",
+                "Microbiologia",
+                "Vigilância Sanitária"
+            ],
+            "miniBiography": "Cursou o bacharelado em Microbiologia e Imunologia na Universidade Federal do Rio de Janeiro (2003) e o bacharelado em Farmácia na Universidade Estácio de Sá (2007). Possui especialização em Farmácia Industrial pela Universidade Estácio de Sá (2008). Cursou o Mestrado Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica em Farmanguinhos/Fiocruz e o doutorado em Vigilância Sanitária no INCQS/Fiocruz. Atua como Tecnologista em Saúde Pública no Laboratório de Controle Microbiológico de Bio-Manguinhos/Fiocruz.",
+            "miniBiography_eng": "graduation at Microbiologia e Imunologia from Universidade Federal do Rio de Janeiro (2003) and graduation at Farmácia from Universidade Estácio de Sá (2007). , acting on the following subjects: brequinar, maldi-tof ms, immunossupressant, virus vaccinia and indústria farmacêutica."
+        },
+        {
+            "name": "E. D. C. Cavalcanti",
+            "ordemAutoria": "3",
+            "citationName": [
+                "CAVALCANTI, E. D. C."
+            ]
+        },
+        {
+            "name": "Marcia Giambiagi",
+            "ordemAutoria": "4",
+            "citationName": [
+                "GIAMBIAGI, M."
+            ]
+        },
+        {
+            "name": "L. T. A. S. Semedo",
+            "ordemAutoria": "5",
+            "citationName": [
+                "L. T. A. S. Semedo"
+            ]
+        },
+        {
+            "name": "R .R. R. Coelho",
+            "ordemAutoria": "6",
+            "citationName": [
+                "R .R. R. Coelho"
+            ]
+        },
+        {
+            "name": "Nissin Moussatché",
+            "ordemAutoria": "7",
+            "citationName": [
+                "MOUSSATCHE, N."
+            ]
+        },
+        {
+            "name": "Clarissa Damaso",
+            "ordemAutoria": "8",
+            "citationName": [
+                "DAMASO, C. R. A."
+            ],
+            "identifier.lattes": "3900177177421722"
+        }
+    ]
+}

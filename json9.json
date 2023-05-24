@@ -1,0 +1,158 @@
+{
+    "identifier.doi": "10.1001/jamanetworkopen.2020.9303",
+    "title": "Association Between Antenatal Exposure to Zika Virus and Anatomical and Neurodevelopmental Abnormalities in Children",
+    "language": "Inglês",
+    "publicationDate": "2020",
+    "volume": "3",
+    "series": "7",
+    "startPage": "e209303",
+    "endPage": "",
+    "type": "journal article",
+    "keyword": [
+        "zika virus"
+    ],
+    "researchArea.cnpq": [
+        "doenças infecciosas"
+    ],
+    "resourceUrl": "doi:10.1001/jamanetworkopen.2020.9303",
+    "PublisherJournal": {
+        "identifier.issn": "2574-3805",
+        "title": "JAMA NETWORK OPEN"
+    },
+    "authors": [
+        {
+            "name": "CRANSTON, JESSICA S.",
+            "ordemAutoria": "1",
+            "citationName": [
+                "CRANSTON, JESSICA S."
+            ]
+        },
+        {
+            "name": "Dulce Helena Gonçalves Orofino",
+            "ordemAutoria": "10",
+            "citationName": [
+                "OROFINO, D. H. G.",
+                "OROFINO, DH",
+                "OROFINO, DULCE HELENA GONÇALVES",
+                "OROFINO, DULCE H. G.",
+                "OROFINO, DULCE"
+            ],
+            "identifier.lattes": "0009277151089005",
+            "identifier.orcid": "0000-0002-0953-1831",
+            "nationality": "Brasil",
+            "birthCity": "rio de janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Medicina"
+            ],
+            "miniBiography": "Atualmente é Professora Auxiliar de Ensino da Disciplina de Pediatria e Supervisora do Internato da Escola de Medicina Souza Marques. Exerceu a função de Supervisora do Internato de Pediatria de 2004 a 2011.Trabalhou de 1992 a 2012 como médica cardiopediatra do Hospital Municipal Jesus-RJ. Atuando principalmente nos seguintes temas: cardiopatias congênitas, febre reumática, doença de kawasaki, dor de garganta, miocardites agudas, miocardiopatias dilatadas e Zika vírus.&#10;Doutorado em Pesquisa Clínica em Doenças Infecciosas pelo IPEC--Fiocruz-Laboratório de Epidemiologia Clínica.Membro do grupo de pesquisa Epidemiologia Clínica Aplicada ao Desenvolvimento de Instrumentos de Apoio à Decisão Médica coordenado pela Dra Sonia Regina Lambert Passos.",
+            "miniBiography_eng": ", acting on the following subjects: cardiologia pediatrica, kawasaki, espiras embolizantes, dor de garganta, coarctação de aorta,Zik vírus"
+        },
+        {
+            "name": "BRASIL, PATRICIA",
+            "ordemAutoria": "11",
+            "citationName": [
+                "BRASIL, PATRICIA"
+            ]
+        },
+        {
+            "name": "KERIN, TARA",
+            "ordemAutoria": "12",
+            "citationName": [
+                "KERIN, TARA"
+            ]
+        },
+        {
+            "name": "ADACHI, KRISTINA",
+            "ordemAutoria": "13",
+            "citationName": [
+                "ADACHI, KRISTINA"
+            ]
+        },
+        {
+            "name": "SOARES, FERNANDA MENDES",
+            "ordemAutoria": "14",
+            "citationName": [
+                "SOARES, FERNANDA MENDES"
+            ]
+        },
+        {
+            "name": "DUNSHEE DE ABRANCHES, ANDREA",
+            "ordemAutoria": "15",
+            "citationName": [
+                "DUNSHEE DE ABRANCHES, ANDREA"
+            ]
+        },
+        {
+            "name": "DA COSTA, ANA CAROLINA C.",
+            "ordemAutoria": "16",
+            "citationName": [
+                "DA COSTA, ANA CAROLINA C."
+            ]
+        },
+        {
+            "name": "LOPES MOREIRA, MARIA ELISABETH",
+            "ordemAutoria": "17",
+            "citationName": [
+                "LOPES MOREIRA, MARIA ELISABETH"
+            ]
+        },
+        {
+            "name": "TIENE, SOPHIA FINN",
+            "ordemAutoria": "2",
+            "citationName": [
+                "TIENE, SOPHIA FINN"
+            ]
+        },
+        {
+            "name": "NIELSEN-SAINES, KARIN",
+            "ordemAutoria": "3",
+            "citationName": [
+                "NIELSEN-SAINES, KARIN"
+            ]
+        },
+        {
+            "name": "VASCONCELOS, ZILTON",
+            "ordemAutoria": "4",
+            "citationName": [
+                "VASCONCELOS, ZILTON"
+            ]
+        },
+        {
+            "name": "PONE, MARCOS V.",
+            "ordemAutoria": "5",
+            "citationName": [
+                "PONE, MARCOS V."
+            ]
+        },
+        {
+            "name": "PONE, SHEILA",
+            "ordemAutoria": "6",
+            "citationName": [
+                "PONE, SHEILA"
+            ]
+        },
+        {
+            "name": "ZIN, ANDREA",
+            "ordemAutoria": "7",
+            "citationName": [
+                "ZIN, ANDREA"
+            ]
+        },
+        {
+            "name": "SALLES, TANIA SAAD",
+            "ordemAutoria": "8",
+            "citationName": [
+                "SALLES, TANIA SAAD"
+            ]
+        },
+        {
+            "name": "PEREIRA, JOSE PAULO",
+            "ordemAutoria": "9",
+            "citationName": [
+                "PEREIRA, JOSE PAULO"
+            ]
+        }
+    ]
+}

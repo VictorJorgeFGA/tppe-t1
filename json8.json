@@ -1,0 +1,126 @@
+{
+    "identifier.doi": "10.1590/S16789946202062050",
+    "title": "24-hour Holter findings in infants with in-utero exposure to the Zika virus: a series of cases D",
+    "language": "Inglês",
+    "publicationDate": "2020",
+    "volume": "62",
+    "series": "",
+    "startPage": "1678-9946",
+    "endPage": "",
+    "type": "journal article",
+    "keyword": [],
+    "researchArea.cnpq": [],
+    "resourceUrl": "http://https://www.scielo.br/pdf/rimtsp/v62/1678-9946-rimtsp-62-S1678-9946202062050.pdf][doi:10.1590/s16789946202062050",
+    "PublisherJournal": {
+        "identifier.issn": "0036-4665",
+        "title": "REVISTA DO INSTITUTO DE MEDICINA TROPICAL DE SAO PAULO"
+    },
+    "authors": [
+        {
+            "name": "DE OLIVEIRA, RAQUEL CARVALHAES",
+            "ordemAutoria": "1",
+            "citationName": [
+                "DE OLIVEIRA, RAQUEL CARVALHAES"
+            ]
+        },
+        {
+            "name": "Leticia Machado Lima e Silva",
+            "ordemAutoria": "10",
+            "citationName": [
+                "SILVA, L. M. L. E."
+            ]
+        },
+        {
+            "name": "Tiago Moreira Ramos",
+            "ordemAutoria": "11",
+            "citationName": [
+                "RAMOS, T. M."
+            ]
+        },
+        {
+            "name": "Luan Noé da Silva",
+            "ordemAutoria": "12",
+            "citationName": [
+                "SILVA, L. N."
+            ]
+        },
+        {
+            "name": "Dulce Helena Gonçalves Orofino",
+            "ordemAutoria": "13",
+            "citationName": [
+                "OROFINO, D. H. G.",
+                "OROFINO, DH",
+                "OROFINO, DULCE HELENA GONÇALVES",
+                "OROFINO, DULCE H. G.",
+                "OROFINO, DULCE"
+            ],
+            "identifier.lattes": "0009277151089005",
+            "identifier.orcid": "0000-0002-0953-1831",
+            "nationality": "Brasil",
+            "birthCity": "rio de janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Medicina"
+            ],
+            "miniBiography": "Atualmente é Professora Auxiliar de Ensino da Disciplina de Pediatria e Supervisora do Internato da Escola de Medicina Souza Marques. Exerceu a função de Supervisora do Internato de Pediatria de 2004 a 2011.Trabalhou de 1992 a 2012 como médica cardiopediatra do Hospital Municipal Jesus-RJ. Atuando principalmente nos seguintes temas: cardiopatias congênitas, febre reumática, doença de kawasaki, dor de garganta, miocardites agudas, miocardiopatias dilatadas e Zika vírus.&#10;Doutorado em Pesquisa Clínica em Doenças Infecciosas pelo IPEC--Fiocruz-Laboratório de Epidemiologia Clínica.Membro do grupo de pesquisa Epidemiologia Clínica Aplicada ao Desenvolvimento de Instrumentos de Apoio à Decisão Médica coordenado pela Dra Sonia Regina Lambert Passos.",
+            "miniBiography_eng": ", acting on the following subjects: cardiologia pediatrica, kawasaki, espiras embolizantes, dor de garganta, coarctação de aorta,Zik vírus"
+        },
+        {
+            "name": "Marcos Pone",
+            "ordemAutoria": "2",
+            "citationName": [
+                "PONE, M."
+            ]
+        },
+        {
+            "name": "PASSOS, SONIA R. L.",
+            "ordemAutoria": "3",
+            "citationName": [
+                "PASSOS, SONIA R. L."
+            ]
+        },
+        {
+            "name": "rafaela valentim goldenzon",
+            "ordemAutoria": "4",
+            "citationName": [
+                "GOLDENZON, R. V."
+            ]
+        },
+        {
+            "name": "Sheila Pone",
+            "ordemAutoria": "5",
+            "citationName": [
+                "PONE, S."
+            ]
+        },
+        {
+            "name": "MOREIRA, MARIA ELIZABETH L.",
+            "ordemAutoria": "6",
+            "citationName": [
+                "MOREIRA, MARIA ELIZABETH L."
+            ]
+        },
+        {
+            "name": "Elisa Barroso de Aguiar",
+            "ordemAutoria": "7",
+            "citationName": [
+                "AGUIAR, E. B."
+            ]
+        },
+        {
+            "name": "Igo Oliveira de Araújo",
+            "ordemAutoria": "8",
+            "citationName": [
+                "ARAUJO, I. O."
+            ]
+        },
+        {
+            "name": "Bruna Menezes de Oliveira",
+            "ordemAutoria": "9",
+            "citationName": [
+                "OLIVEIRA, B. M."
+            ]
+        }
+    ]
+}

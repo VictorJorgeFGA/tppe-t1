@@ -1,0 +1,98 @@
+{
+    "title": "Avaliação da diversidade microbiana presente em sistema gerador de água purificada de uma indústria farmacêutica",
+    "language": "Português",
+    "publicationDate": "2017",
+    "volume": "98",
+    "series": "1",
+    "startPage": "1919",
+    "endPage": "1937",
+    "type": "journal article",
+    "keyword": [
+        "água purificada",
+        "Controle microbiológico",
+        "Delftia acidovorans",
+        "Indústria Farmacêutica",
+        "MALDI-TOF MS"
+    ],
+    "researchArea.cnpq": [
+        "CIENCIAS_DA_SAUDE",
+        "Microbiologia"
+    ],
+    "resourceUrl": "",
+    "PublisherJournal": {
+        "identifier.issn": "2176-0667",
+        "title": "REVISTA BRASILEIRA DE FARMÁCIA (ON LINE)"
+    },
+    "authors": [
+        {
+            "name": "Luciana Veloso da Costa",
+            "ordemAutoria": "1",
+            "citationName": [
+                "COSTA, L. V.",
+                "COSTA, LUCIANA",
+                "DA COSTA, LUCIANA VELOSO"
+            ],
+            "identifier.lattes": "0006350082498931",
+            "nationality": "Brasil",
+            "birthCity": "Rio de Janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Controle de Qualidade",
+                "Microbiologia",
+                "Vigilância Sanitária"
+            ],
+            "miniBiography": "Cursou o bacharelado em Microbiologia e Imunologia na Universidade Federal do Rio de Janeiro (2003) e o bacharelado em Farmácia na Universidade Estácio de Sá (2007). Possui especialização em Farmácia Industrial pela Universidade Estácio de Sá (2008). Cursou o Mestrado Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica em Farmanguinhos/Fiocruz e o doutorado em Vigilância Sanitária no INCQS/Fiocruz. Atua como Tecnologista em Saúde Pública no Laboratório de Controle Microbiológico de Bio-Manguinhos/Fiocruz.",
+            "miniBiography_eng": "graduation at Microbiologia e Imunologia from Universidade Federal do Rio de Janeiro (2003) and graduation at Farmácia from Universidade Estácio de Sá (2007). , acting on the following subjects: brequinar, maldi-tof ms, immunossupressant, virus vaccinia and indústria farmacêutica."
+        },
+        {
+            "name": "Erica Louro da Fonseca",
+            "ordemAutoria": "2",
+            "citationName": [
+                "FONSECA, E. L."
+            ]
+        },
+        {
+            "name": "Luciane Martins Medeiros",
+            "ordemAutoria": "3",
+            "citationName": [
+                "MEDEIROS, L. M."
+            ]
+        },
+        {
+            "name": "Fernanda Ventura Cruz",
+            "ordemAutoria": "4",
+            "citationName": [
+                "CRUZ, F. V."
+            ]
+        },
+        {
+            "name": "Patricia Aila Pereira da Costa",
+            "ordemAutoria": "5",
+            "citationName": [
+                "COSTA, P. A. P."
+            ]
+        },
+        {
+            "name": "Carla de Oliveira Mororó",
+            "ordemAutoria": "6",
+            "citationName": [
+                "MORORO, C. O."
+            ]
+        },
+        {
+            "name": "Maria José Botelho Alves",
+            "ordemAutoria": "7",
+            "citationName": [
+                "ALVES, M. J. B."
+            ]
+        },
+        {
+            "name": "Maria Antonieta Ferrara",
+            "ordemAutoria": "8",
+            "citationName": [
+                "FERRARA, M. A."
+            ]
+        }
+    ]
+}

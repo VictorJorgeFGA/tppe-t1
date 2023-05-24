@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'byebug'
 require 'pry'
+require 'json'
 
 load 'completude.rb'
 
@@ -234,5 +235,15 @@ class FeatureTests < Minitest::Test
     define_method "test_multiple_atomic_and_composed_attributes_with_arrays_xor_test_cases_#{idx}" do
       assert_equal test_case['answer'], Completude::get_completude(test_case['parameters'], :xor)
     end
+  end
+
+  def test_should_check_completude_from_jsons_correctly
+    answers = JSON.parse(File.read("json_answers.json"))
+    results = {}
+    (1..10).each do |i|
+      results["json#{i}_or"] = Completude::get_completude(JSON.parse(File.read("json#{i}.json")))
+      results["json#{i}_xor"] = Completude::get_completude(JSON.parse(File.read("json#{i}.json")), :xor)
+    end
+    assert_equal answers, results
   end
 end

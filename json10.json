@@ -1,0 +1,111 @@
+{
+    "identifier.doi": "10.1371/journal.pntd.0006362",
+    "title": "Cardiac findings in infants with in utero exposure to Zika virus- a cross sectional study",
+    "language": "Inglês",
+    "publicationDate": "2018",
+    "volume": "12",
+    "series": "3",
+    "startPage": "e0006362",
+    "endPage": "",
+    "type": "journal article",
+    "keyword": [
+        "zika virus",
+        "cardiopatias congênitas"
+    ],
+    "researchArea.cnpq": [
+        "cardiologia pediátrica",
+        "doenças infecciosas"
+    ],
+    "resourceUrl": "doi:10.1371/journal.pntd.0006362",
+    "PublisherJournal": {
+        "identifier.issn": "1935-2735",
+        "title": "PLoS Neglected Tropical Diseases"
+    },
+    "authors": [
+        {
+            "name": "Dulce Helena Gonçalves Orofino",
+            "ordemAutoria": "1",
+            "citationName": [
+                "OROFINO, D. H. G.",
+                "OROFINO, DH",
+                "OROFINO, DULCE HELENA GONÇALVES",
+                "OROFINO, DULCE H. G.",
+                "OROFINO, DULCE"
+            ],
+            "identifier.lattes": "0009277151089005",
+            "identifier.orcid": "0000-0002-0953-1831",
+            "nationality": "Brasil",
+            "birthCity": "rio de janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Medicina"
+            ],
+            "miniBiography": "Atualmente é Professora Auxiliar de Ensino da Disciplina de Pediatria e Supervisora do Internato da Escola de Medicina Souza Marques. Exerceu a função de Supervisora do Internato de Pediatria de 2004 a 2011.Trabalhou de 1992 a 2012 como médica cardiopediatra do Hospital Municipal Jesus-RJ. Atuando principalmente nos seguintes temas: cardiopatias congênitas, febre reumática, doença de kawasaki, dor de garganta, miocardites agudas, miocardiopatias dilatadas e Zika vírus.&#10;Doutorado em Pesquisa Clínica em Doenças Infecciosas pelo IPEC--Fiocruz-Laboratório de Epidemiologia Clínica.Membro do grupo de pesquisa Epidemiologia Clínica Aplicada ao Desenvolvimento de Instrumentos de Apoio à Decisão Médica coordenado pela Dra Sonia Regina Lambert Passos.",
+            "miniBiography_eng": ", acting on the following subjects: cardiologia pediatrica, kawasaki, espiras embolizantes, dor de garganta, coarctação de aorta,Zik vírus"
+        },
+        {
+            "name": "NIELSEN-SAINES, KARIN",
+            "ordemAutoria": "10",
+            "citationName": [
+                "NIELSEN-SAINES, KARIN"
+            ]
+        },
+        {
+            "name": "PASSOS, SONIA R. L.",
+            "ordemAutoria": "2",
+            "citationName": [
+                "PASSOS, SONIA R. L."
+            ]
+        },
+        {
+            "name": "DE OLIVEIRA, RAQUEL V. C.",
+            "ordemAutoria": "3",
+            "citationName": [
+                "DE OLIVEIRA, RAQUEL V. C."
+            ]
+        },
+        {
+            "name": "DE FARIAS, CARLA VERONA B.",
+            "ordemAutoria": "4",
+            "citationName": [
+                "DE FARIAS, CARLA VERONA B."
+            ]
+        },
+        {
+            "name": "LEITE, MARIA DE FATIMA M. P.",
+            "ordemAutoria": "5",
+            "citationName": [
+                "LEITE, MARIA DE FATIMA M. P."
+            ]
+        },
+        {
+            "name": "PONE, SHEILA M.",
+            "ordemAutoria": "6",
+            "citationName": [
+                "PONE, SHEILA M."
+            ]
+        },
+        {
+            "name": "PONE, MARCOS V. DA S.",
+            "ordemAutoria": "7",
+            "citationName": [
+                "PONE, MARCOS V. DA S."
+            ]
+        },
+        {
+            "name": "TEIXEIRA MENDES, HELENA A. R.",
+            "ordemAutoria": "8",
+            "citationName": [
+                "TEIXEIRA MENDES, HELENA A. R."
+            ]
+        },
+        {
+            "name": "MOREIRA, MARIA ELIZABETH L.",
+            "ordemAutoria": "9",
+            "citationName": [
+                "MOREIRA, MARIA ELIZABETH L."
+            ]
+        }
+    ]
+}

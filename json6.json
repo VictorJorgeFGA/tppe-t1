@@ -1,0 +1,77 @@
+{
+    "identifier.doi": "10.52397/rcubm.v23i45.1036",
+    "title": "Diversidade de cepas de Stenotrophomonas maltophilia isoladas entre 1958 e 2021 e genotipadas por multilocus sequence typing",
+    "language": "Português",
+    "publicationDate": "2021",
+    "volume": "23",
+    "series": "45",
+    "startPage": "129",
+    "endPage": "141",
+    "type": "journal article",
+    "keyword": [
+        "Epidemiologia",
+        "MLST",
+        "Caracterização molecular",
+        "Stenotrophomonas maltophilia"
+    ],
+    "researchArea.cnpq": [
+        "CIENCIAS_BIOLOGICAS",
+        "Saúde Pública"
+    ],
+    "resourceUrl": "http://revista.ubm.br/index.php/revistacientifica/article/view/1036][doi:10.52397/rcubm.v23i45.1036",
+    "PublisherJournal": {
+        "identifier.issn": "1516-4071",
+        "title": "REVISTA CIENTÍFICA DO CENTRO UNIVERSITÁRIO DE BARRA MANSA"
+    },
+    "authors": [
+        {
+            "name": "LAGE, REBECA VITÓRIA DA SILVA",
+            "ordemAutoria": "1",
+            "citationName": [
+                "LAGE, REBECA VITÓRIA DA SILVA"
+            ]
+        },
+        {
+            "name": "COSTA, PAULA VASCONCELOS",
+            "ordemAutoria": "2",
+            "citationName": [
+                "COSTA, PAULA VASCONCELOS"
+            ]
+        },
+        {
+            "name": "Luciana Veloso da Costa",
+            "ordemAutoria": "3",
+            "citationName": [
+                "COSTA, L. V.",
+                "COSTA, LUCIANA",
+                "DA COSTA, LUCIANA VELOSO"
+            ],
+            "identifier.lattes": "0006350082498931",
+            "nationality": "Brasil",
+            "birthCity": "Rio de Janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Controle de Qualidade",
+                "Microbiologia",
+                "Vigilância Sanitária"
+            ],
+            "miniBiography": "Cursou o bacharelado em Microbiologia e Imunologia na Universidade Federal do Rio de Janeiro (2003) e o bacharelado em Farmácia na Universidade Estácio de Sá (2007). Possui especialização em Farmácia Industrial pela Universidade Estácio de Sá (2008). Cursou o Mestrado Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica em Farmanguinhos/Fiocruz e o doutorado em Vigilância Sanitária no INCQS/Fiocruz. Atua como Tecnologista em Saúde Pública no Laboratório de Controle Microbiológico de Bio-Manguinhos/Fiocruz.",
+            "miniBiography_eng": "graduation at Microbiologia e Imunologia from Universidade Federal do Rio de Janeiro (2003) and graduation at Farmácia from Universidade Estácio de Sá (2007). , acting on the following subjects: brequinar, maldi-tof ms, immunossupressant, virus vaccinia and indústria farmacêutica."
+        },
+        {
+            "name": "VILLAS BÔAS, MARIA HELENA SIMÕES",
+            "ordemAutoria": "4",
+            "citationName": [
+                "VILLAS BÔAS, MARIA HELENA SIMÕES"
+            ]
+        },
+        {
+            "name": "BRANDÃO, MARCELO LUIZ LIMA",
+            "ordemAutoria": "5",
+            "citationName": [
+                "BRANDÃO, MARCELO LUIZ LIMA"
+            ]
+        }
+    ]
+}

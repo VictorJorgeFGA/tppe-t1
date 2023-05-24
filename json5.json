@@ -1,0 +1,80 @@
+{
+    "identifier.doi": "10.3395/2317-269x.00592",
+    "title": "Principais obstáculos que dificultam a inovação em instituições públicas da área farmacêutica no Brasil",
+    "language": "Português",
+    "publicationDate": "2016",
+    "volume": "4",
+    "series": "2",
+    "startPage": "2",
+    "endPage": "7",
+    "type": "journal article",
+    "keyword": [
+        "Inovação",
+        "Indústria Farmacêutica",
+        "Laboratórios oficiais"
+    ],
+    "researchArea.cnpq": [],
+    "resourceUrl": "http://https://visaemdebate.incqs.fiocruz.br/index.php/visaemdebate/article/view/592",
+    "PublisherJournal": {
+        "identifier.issn": "2317-269X",
+        "title": "Vigilância Sanitária em Debate: Sociedade, Ciência & Tecnologia"
+    },
+    "authors": [
+        {
+            "name": "Marcus Vinícius Lima do Couto",
+            "ordemAutoria": "1",
+            "citationName": [
+                "COUTO, M. V. L."
+            ]
+        },
+        {
+            "name": "Aline Rodrigues Venâncio das Neves",
+            "ordemAutoria": "2",
+            "citationName": [
+                "NEVES, A. R. V."
+            ]
+        },
+        {
+            "name": "Ester Ribeiro de Figueiredo",
+            "ordemAutoria": "3",
+            "citationName": [
+                "FIGUEIREDO, E. R."
+            ]
+        },
+        {
+            "name": "Larissa dos Santos da Silveira",
+            "ordemAutoria": "4",
+            "citationName": [
+                "SILVEIRA, L. S."
+            ]
+        },
+        {
+            "name": "Luciana Veloso da Costa",
+            "ordemAutoria": "5",
+            "citationName": [
+                "COSTA, L. V.",
+                "COSTA, LUCIANA",
+                "DA COSTA, LUCIANA VELOSO"
+            ],
+            "identifier.lattes": "0006350082498931",
+            "nationality": "Brasil",
+            "birthCity": "Rio de Janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Controle de Qualidade",
+                "Microbiologia",
+                "Vigilância Sanitária"
+            ],
+            "miniBiography": "Cursou o bacharelado em Microbiologia e Imunologia na Universidade Federal do Rio de Janeiro (2003) e o bacharelado em Farmácia na Universidade Estácio de Sá (2007). Possui especialização em Farmácia Industrial pela Universidade Estácio de Sá (2008). Cursou o Mestrado Profissional em Gestão, Pesquisa e Desenvolvimento na Indústria Farmacêutica em Farmanguinhos/Fiocruz e o doutorado em Vigilância Sanitária no INCQS/Fiocruz. Atua como Tecnologista em Saúde Pública no Laboratório de Controle Microbiológico de Bio-Manguinhos/Fiocruz.",
+            "miniBiography_eng": "graduation at Microbiologia e Imunologia from Universidade Federal do Rio de Janeiro (2003) and graduation at Farmácia from Universidade Estácio de Sá (2007). , acting on the following subjects: brequinar, maldi-tof ms, immunossupressant, virus vaccinia and indústria farmacêutica."
+        },
+        {
+            "name": "Wanise Borges Gouvea Barroso",
+            "ordemAutoria": "6",
+            "citationName": [
+                "BARROSO, W. B. G."
+            ]
+        }
+    ]
+}

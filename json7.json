@@ -1,0 +1,94 @@
+{
+    "identifier.doi": "10.1097/inf.0b013e3182868b32",
+    "title": "Accuracy And Interobserver Variation Of Three Clinical Decision Rules For The Diagnosis Of Streptococcal Pharyngitis",
+    "language": "Inglês",
+    "publicationDate": "2013",
+    "volume": "32",
+    "series": "6",
+    "startPage": "686",
+    "endPage": "687",
+    "type": "journal article",
+    "keyword": [
+        "validation study",
+        "sensitivity",
+        "specificity",
+        "streptococcal pharyngitis",
+        "rheumatic fever"
+    ],
+    "researchArea.cnpq": [
+        "doenças infecciosas",
+        "Saúde Coletiva"
+    ],
+    "resourceUrl": "http://journals.lww.com/pidj/pages/articleviewer.aspx?year=2013&issue=06000&article=00027&type=abstract][doi:10.1097/inf.0b013e3182868b32",
+    "PublisherJournal": {
+        "identifier.issn": "0891-3668",
+        "title": "The Pediatric Infectious Disease Journal"
+    },
+    "authors": [
+        {
+            "name": "Dulce Helena Gonçalves Orofino",
+            "ordemAutoria": "1",
+            "citationName": [
+                "OROFINO, D. H. G.",
+                "OROFINO, DH",
+                "OROFINO, DULCE HELENA GONÇALVES",
+                "OROFINO, DULCE H. G.",
+                "OROFINO, DULCE"
+            ],
+            "identifier.lattes": "0009277151089005",
+            "identifier.orcid": "0000-0002-0953-1831",
+            "nationality": "Brasil",
+            "birthCity": "rio de janeiro",
+            "birthState": "RJ",
+            "birthCountry": "Brasil",
+            "researchArea": [
+                "Medicina"
+            ],
+            "miniBiography": "Atualmente é Professora Auxiliar de Ensino da Disciplina de Pediatria e Supervisora do Internato da Escola de Medicina Souza Marques. Exerceu a função de Supervisora do Internato de Pediatria de 2004 a 2011.Trabalhou de 1992 a 2012 como médica cardiopediatra do Hospital Municipal Jesus-RJ. Atuando principalmente nos seguintes temas: cardiopatias congênitas, febre reumática, doença de kawasaki, dor de garganta, miocardites agudas, miocardiopatias dilatadas e Zika vírus.&#10;Doutorado em Pesquisa Clínica em Doenças Infecciosas pelo IPEC--Fiocruz-Laboratório de Epidemiologia Clínica.Membro do grupo de pesquisa Epidemiologia Clínica Aplicada ao Desenvolvimento de Instrumentos de Apoio à Decisão Médica coordenado pela Dra Sonia Regina Lambert Passos.",
+            "miniBiography_eng": ", acting on the following subjects: cardiologia pediatrica, kawasaki, espiras embolizantes, dor de garganta, coarctação de aorta,Zik vírus"
+        },
+        {
+            "name": "PASSOS, SÔNIA REGINA LAMBERT",
+            "ordemAutoria": "2",
+            "citationName": [
+                "PASSOS, SÔNIA REGINA LAMBERT"
+            ],
+            "identifier.lattes": "1563815489548742"
+        },
+        {
+            "name": "DE ANDRADE, CARLOS AUGUSTO FERREIRA",
+            "ordemAutoria": "3",
+            "citationName": [
+                "DE ANDRADE, CARLOS AUGUSTO FERREIRA"
+            ]
+        },
+        {
+            "name": "NIGRI, DANIEL",
+            "ordemAutoria": "4",
+            "citationName": [
+                "NIGRI, DANIEL"
+            ]
+        },
+        {
+            "name": "DOS SANTOS WERNECK, LÚCIA",
+            "ordemAutoria": "5",
+            "citationName": [
+                "DOS SANTOS WERNECK, LÚCIA"
+            ]
+        },
+        {
+            "name": "DE OLIVEIRA, RAQUEL CARVALHAES",
+            "ordemAutoria": "6",
+            "citationName": [
+                "DE OLIVEIRA, RAQUEL CARVALHAES"
+            ]
+        },
+        {
+            "name": "HÖKERBERG, YARA HAHR MARQUES",
+            "ordemAutoria": "7",
+            "citationName": [
+                "HÖKERBERG, YARA HAHR MARQUES"
+            ]
+        }
+    ]
+}
